@@ -1,0 +1,17 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #5d524c;
+    color: #c8c3bf;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    size: 14px;
+    padding-left: 10%;
+}
+
+#vogel {
+    width: 225px;
+    height: auto;
+}

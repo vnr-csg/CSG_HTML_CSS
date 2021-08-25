@@ -6,39 +6,31 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Mono">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter">
         <style>
-            body {
-                font-family: 'Tangerine', serif;
-                font-size: 72px;
-                color: #E84351;
-            }
-
             h1 {
                 margin: 0;
-                margin-bottom: -3%;
+                margin-bottom: 3%;
+                font-family: 'Ubuntu Mono', serif;
+                font-size: 96px;
+                color: #E84351;
             }
 
             a {
                 font-family: 'Architects Daughter', serif;  
-                font-size: 24px;
+                font-size: 48px;
                 color: #1FABDA;
-                text-decoration: none;        
+                text-decoration: none;
             }
 
-            #herstel {
-                color: orange;
-                font-family: 'Ubuntu Mono', sans-serif;
-                font-size: 36px;
-                text-decoration-line: overline;
-                text-decoration-style: wavy;
+            button {
+                border-radius: 15%;
             }
             
-            a:hover {
+            button:hover {
                 background-color: yellow;
-                color: black;
             }            
 
             #container {
-                width: 50%;
+                width: 30%;
                 margin: auto;
                 margin-top: 5%;
                 padding: 0;
@@ -52,11 +44,9 @@
     <body>
         <div id="container">
             <h1>startpagina</h1>
-            <a href="/PHP">PHP</a> | 
-            <a href="/phpMyAdmin">phpMyAdmin</a> | 
-            <a href="/querier/querier.php">Querier</a> |
-            <a href="/mijnProject/">mijn Project</a><br>
-            <a id="herstel" href="/querier/reset.php">Herstel en opslag Databases</a>
+            <button><a href="/oefenen">oefenen</a></button>
+            <button><a href="/overMij">overMij</a></button>
+            <button><a href="/PO">PO</a></button>
         </div>
     </body>
 </html>
