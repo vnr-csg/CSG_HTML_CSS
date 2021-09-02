@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    border: 0;
+    background-color: #000;
+}
+
+table {
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 15%;
+    border-collapse: collapse;
+    background-color: #FFF;
+    font-family: 'Josefin Sans',sans-serif;
+    border: 2px solid yellow;
+}
+
+thead {
+    background-color: #555;
+}
+
+th,#verticaal {
+    padding: 10px 0px 10px 0px;
+    color: whitesmoke;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.toelichting {
+    background-color: darksalmon;
+}
+
+#verticaal {
+    writing-mode: vertical-rl;
+}
+
+tr {
+    border-bottom: 1px solid #555;
+}
+
+td,th {
+    padding: 0.2em;
+    padding-top: 0.4em;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+tbody a {
+    color: blue;
+    text-transform: uppercase;
+}
+
+tbody tr:hover {
+    background-color: whitesmoke;
+}
+
+.benadruk {
+    font-weight: 900;
+    color: darkolivegreen;
+    background-color: lightseagreen;
+}

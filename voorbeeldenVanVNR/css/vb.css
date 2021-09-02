@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;   
+    font-family: 'Mukta',sans-serif;
+}
+
+#container {
+    width: 45%;
+    margin: auto;
+    margin-top: 3%;
+    padding: 5%;
+    background-color: whitesmoke;
+    color: #555;
+    border: 1px dashed #555;
+}
+
+table {
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    border-collapse: collapse;
+    background-color: #FFF;
+    font-family: 'Josefin Sans',sans-serif;
+}
+
+thead {
+    background-color: #555;
+}
+
+th {
+    padding: 10px 0px 10px 0px;
+    color: whitesmoke;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+tr {
+    border-bottom: 1px solid #555;
+}
+
+td,th {
+    padding: 0.2em;
+    padding-top: 0.4em;
+}
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+tbody a {
+    color: blue;
+    text-transform: uppercase;
+}
+
+tbody tr:hover {
+    background-color: whitesmoke;
+}

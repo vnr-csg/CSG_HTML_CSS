@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darkslategray;
+    color: cornsilk; 
+}
+
+h2 {
+    color: darkslategray;
+    font-size: 2em;
+}
+
+h3,p {
+    margin-left: 10%;
+    width: 25%;
+}
+
+span {
+    font-variant: small-caps;
+    font-weight: 900;
+    background-color: black;
+    color: white;
+}
+
+div {
+    background-color: lightslategrey;
+    width: 50%;
+    margin: 2%;
+    padding: 1%;
+    border: 4px solid cornsilk;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+div p {
+    width: auto;
+}
