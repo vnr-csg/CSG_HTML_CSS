@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 5%;   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+#lijstTeken {
+    background-color: goldenrod;
+    width: 25%;
+    padding: 1%;
+}
+
+#lijstTeken li {
+    list-style: circle outside;
+    color: dodgerblue;
+    background-color: greenyellow;
+    margin: 2%;
+    padding: 5%;
+    font-size: 1.5em;
+  }
+
+#navigatie {
+    background-color: #222;
+    height: 100px;
+    width: 1020px;
+  }
+
+#navigatie li {
+    color: whitesmoke;
+    background-color: #999;
+    display: inline;
+    padding: 15px 20px 5px 20px;
+    font-size: 3.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+}
+
+#navigatie li:hover {
+    color: #222;
+    background-color: #FFF;
+    cursor: grabbing;
+}
