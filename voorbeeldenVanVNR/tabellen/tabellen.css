@@ -7,7 +7,7 @@ body {
 table {
     width: 50%;
     margin-left: 10%;
-    margin-top: 15%;
+    margin-top: 1%;
     border-collapse: collapse;
     background-color: #FFF;
     font-family: 'Josefin Sans',sans-serif;
@@ -16,6 +16,12 @@ table {
 
 thead {
     background-color: #555;
+}
+
+tfoot {
+    background-color: darksalmon;
+    font-size: smaller;
+
 }
 
 th,#verticaal {
