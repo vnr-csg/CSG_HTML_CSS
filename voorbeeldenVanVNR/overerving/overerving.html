@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <title>overerving</title>
+            <link rel="stylesheet" href="overerving.css">
+    </head>
+    <body>
+        <h2>kopje buiten de container</h2>
+        <p>paragraaf buiten de container.</p>
+        <div id="container">
+            <h2>Dit is de inhoud van de container.</h2>
+            <p>
+                Dit is een paragraaf binnen de container, maar niet in een item.
+            </p>
+
+            <div class="item">
+                <h2>item #1</h2>
+                <p>
+                    Omdat deze <em>div</em> een <em>child</em> is van de <em>container</em>
+                    neemt hij ook alle eigenschappen van die container over. Dat verklaart dat de kopjes
+                    blauw (<em>dodgerblue</em>) wordt weergegeven.
+                </p>
+                <p>
+                    Deze tekst is niet blauw, omdat hiervoor in de CSS een aparte regel is opgenomen.
+                    Als die er niet zou zijn, zou ook deze tekst blauw zijn.
+                </p>
+            </div>
+            <div class="item">
+                <h2>item #2</h2>
+                <p>
+                    Alle kopjes op deze pagina zijn gemaakt met de <em>h2-tag</em>. In het CSS-bestand staat 
+                    geen verwijzing naar een h2.
+                </p>
+                <p>
+                    Toch zien niet alle kopjes er hetzelfde uit! De kopjes erfen hun eigenschappen van het element waar ze in staan.
+                </p>
+            </div>
+            <div class="item" id="uniek">
+                <h2>item #3</h2>    
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                </p>            
+            </div>
+        </div>
+    </body>
+</html>

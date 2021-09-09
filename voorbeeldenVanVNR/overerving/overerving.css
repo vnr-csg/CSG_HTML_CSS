@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    background-color: chocolate;    
+}
+
+#container {
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    margin-top: 1%;
+    padding: 20px;
+    color: dodgerblue;
+}
+
+.item {
+    width: auto;
+    height: 200px;
+    margin: 10px;
+    background-color: wheat;
+    padding: 10px;
+}
+
+.item p {
+    color: #777;
+    font-size: 18px;
+    text-align: justify;
+    padding: 0% 25px 0px 125px;
+}
+
+#uniek {
+    background-color: #000;
+    color: #FFF;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#uniek h2 {
+    text-align: right;
+}
