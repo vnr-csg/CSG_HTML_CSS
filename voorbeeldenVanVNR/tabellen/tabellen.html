@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>tabellen</title>
-        <!--
+        
         <link rel="stylesheet" href="tabellen.css">
-        -->
+        
     </head>
     <body>
         <table>
@@ -50,10 +50,12 @@
         <h1>een tabel in de praktijk (inclusief footer)</h1>
         <table>
             <thead>
-                <th>naam</th>
-                <th>woonplaats</th>
-                <th>leeftijd</th>
-                <th>nickname</th>
+                <tr>
+                    <th>naam</th>
+                    <th>woonplaats</th>
+                    <th>leeftijd</th>
+                    <th>nickname</th>
+                </tr>
             </thead>
             <tbody>
                 <tr>
@@ -76,7 +78,9 @@
                 </tr>
             </tbody>
             <tfoot>
-                <th colspan="4">Een header heb je altijd, een footer komt minder vaak voor.</th>
+                <tr>
+                    <td colspan="4">Een header heb je altijd, een footer komt minder vaak voor.</td>
+                </tr>
             </tfoot>
         </table>
     </body>
