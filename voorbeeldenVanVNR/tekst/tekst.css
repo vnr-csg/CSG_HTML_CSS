@@ -1,0 +1,93 @@
+html {
+    font-size: 62.5%;
+}
+
+body { 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: whitesmoke;
+    background-size: cover;
+    color: #333;
+}
+
+p,h1,h2 {
+    padding: 0; /* is standaard al 0 maar zou een andere waarde kunnen krijgen */
+    margin:0;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 4.2rem;
+    font-variant: small-caps;
+    letter-spacing: 0.2rem;
+    color: #FFF;
+    background-color: rgb(127, 154, 184);
+}
+
+h2 {
+    font-size: 2.0rem;
+    margin-top: 1.4rem; /* merk op dat deze niet nog eens wordt opgeteld bij de marge van p */
+    line-height: 2.8rem;
+    color: #DDD;
+    background-color: #333;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin-bottom: 1.4rem;
+    background-color: rgb(236, 195, 195);
+}
+
+p::first-letter {
+    margin-left: 1.4rem;
+  }
+
+.rechts p {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    margin-bottom: 1.2rem;
+    background-color: rgb(221, 130, 130);
+}
+
+.rechts h2 {
+    font-size: 2.0rem;
+    line-height: 2.4rem;
+    color: #DDD;
+    background-color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+#container,#cleancontainer {
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+#cleancontainer h1,#cleancontainer h2,#cleancontainer p {
+    background-color: transparent;
+}
+
+#cleancontainer h1,#cleancontainer h2 {
+    color: #333;
+}
+
+.box {
+    /* flex: flex-grow flex-shrink flex-basis|auto|initial|inherit; */
+    flex: 0 1 450px;
+    margin: 5px;
+    background-color: #FFF;
+    padding: 20px 5px 10px 5px;
+    text-align: justify;
+    border: 1px solid #CCC;
+}
