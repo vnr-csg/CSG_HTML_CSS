@@ -46,7 +46,7 @@ body {
     position: relative;
     width: 96%;
     height: 20%;
-    background-image: url('FFFFFF-0.7.png');    
+    background-image: url('FFFFFF-0.7.png');
     color: #390f0a;
     opacity: 1.0; /* dit element is zelf niet doorzichtig */
   }

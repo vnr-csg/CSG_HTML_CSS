@@ -1,0 +1,109 @@
+body {
+    background-color:whitesmoke;
+    margin: 0;
+    font-size: 62.5%;
+}
+
+.container {
+    background-color: white;
+    padding: 10px;
+    width: 1200px;
+    margin: 15px auto;
+    display: flex;
+    border: 1px solid #999;
+    border-radius: 20px;
+}
+
+.box {
+    width: 390px;
+    margin: 10px;
+    padding: 30px 20px 10px 20px;
+    border: 1px solid #999;
+    text-align: justify;
+}
+.box:hover {
+    background-color: #FBFBFB;
+    border: 1px solid #DDD;
+    text-align: left;
+}
+
+h1,p {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 3.6rem;
+    color: #555;
+    text-align: center;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    color: #333;
+}
+
+#sans {
+    font-family: sans-serif;
+}
+
+#serif {
+    font-family: serif;
+}
+
+#mono p {
+    font-family: monospace;
+}
+
+#gsans p {
+    font-family: 'Poppins';
+}
+
+#gserif {
+    font-family: 'Zilla Slab';
+}
+
+#ghand {
+    font-family: 'Indie Flower';
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway/Raleway-Regular.otf') format('otf');
+}
+
+#dotf {
+    font-family: 'Raleway';
+}
+
+@font-face {
+    font-family: 'Junction';
+    src: url('Junction/webfonts/junction-regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Junction';
+    src: url('Junction/webfonts/junction-bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+#dtruetype {
+    font-family: 'Junction';
+}
+
+@font-face {
+    font-family: "RO";
+    src: url('RijksOverheid/ROserifwebregular.woff') format('woff');
+}
+
+@font-face {
+    font-family: "RO";
+    src: url('RijksOverheid/ROsanswebtextbold.woff') format('woff');
+	font-weight: bold;
+}
+
+#dover {
+    font-family: 'RO';
+}
