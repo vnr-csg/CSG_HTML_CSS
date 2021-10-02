@@ -1,15 +1,13 @@
 body {
-    padding: 0;
-    margin: 0;   
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #AAA;
-    background-color: #111;
+  padding: 0;
+  margin: 0;   
+  background-color: #111;
 }
 
 #container {
     border: 1px solid #AAA;
     width: 1000px;
-    height: 500px;
+    height: 450px;
     margin: auto;
     margin-top: 1%;
     background-image: url("vogel.png");
@@ -17,36 +15,23 @@ body {
     background-position: center;  
 }
 
-.fototekst {
-    display: block;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 90px;
-    text-align: right;
-    font-variant: small-caps;
-    padding: 2%;
-    margin: 0;
-    margin-top: 30%;
-    position: relative;
-    width: 96%;
-    height: 20%;
-    background-color: white;
-    color: #390f0a;
-    opacity: 0.7;
-  }
+.fototekst, .truc {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 120px;
+  text-align: right;
+  font-variant: small-caps;
+  padding: 2%;
+  margin: 0;
+  margin-top: 250px;
+  color: #390f0a;
+}
 
-  .truc {
-    display: block;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 90px;
-    text-align: right;
-    font-variant: small-caps;
-    padding: 2%;
-    margin: 0;
-    margin-top: 30%;
-    position: relative;
-    width: 96%;
-    height: 20%;
-    background-image: url('FFFFFF-0.7.png');
-    color: #390f0a;
-    opacity: 1.0; /* dit element is zelf niet doorzichtig */
-  }
+.fototekst {
+  background-color: white;
+  opacity: 0.7;
+}
+
+.truc {
+  background-image: url('FFFFFF-0.7.png');
+  opacity: 1.0; /* dit element is zelf niet doorzichtig */
+}
