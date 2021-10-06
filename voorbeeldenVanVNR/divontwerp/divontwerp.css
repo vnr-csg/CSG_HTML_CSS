@@ -89,7 +89,7 @@ p {
 .fotobalk {
     width: 60%;
     height: auto;
-    border: 2px solid #111;
+    border: 5px solid darkgoldenrod;
     margin-left: 20%;
     margin-top: 25%;
 }
