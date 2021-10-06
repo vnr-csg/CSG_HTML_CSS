@@ -3,16 +3,16 @@
     bron palet: http://www.colourlovers.com/pattern/2871/Old_Lace....
 */
 
-     :root {
-        --lpaars:#6A001A;
-        --paars: #411D41;
-        --zalm: #A55C5C;
-        --creme: #DDD7BB;
-        --lblauw: #C8DCE0;
-    
-        /* deze techniek is ook voor andere waarden te gebruiken! */
-        --breedte: 1000px;
-    }
+:root {
+    --lpaars:#6A001A;
+    --paars: #411D41;
+    --zalm: #A55C5C;
+    --creme: #DDD7BB;
+    --lblauw: #C8DCE0;
+
+    /* deze techniek is ook voor andere waarden te gebruiken! */
+    --breedte: 1000px;
+}
 
 * {
     margin: 0;
