@@ -1,0 +1,77 @@
+/*
+    palet: https://www.colourlovers.com/palette/67170/Trajan
+*/
+
+:root {
+    --oldstyle:#8D7966;
+    --handtooled: #A8A39D;
+    --trajantheman: #D8C8B8;
+    --trajansdeath: #E2DDD9;
+    --bestfaceever: #F8F1E9;
+
+    /* deze techniek is ook voor andere waarden te gebruiken! */
+    --breedte: 1000px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--trajansdeath);
+    margin-top: 25px;
+}
+
+.container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 3fr;
+    grid-auto-rows: minmax(120px,auto);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container > * {
+    background-color: var(--handtooled);
+    color: var(--oldstyle);
+    padding: 20px;
+    font-size: 2.5rem;
+    text-align: justify;
+}
+
+.links {
+    grid-column: 1;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.header {
+    grid-column: 1 / -1; /* of 3 ipv -1 */
+    background-color: var(--bestfaceever);
+}
+
+.inhoud {
+    grid-column: 2;
+    grid-row: 2 / 7;
+}
+
+.footer {
+    grid-column: 2 / -1;
+    background-color: var(--bestfaceever);
+}
+
+.A {
+    grid-row: 2;
+    background-color: var(--handtooled);
+}
+
+.B {
+    grid-row: 4;
+    background-color: var(--trajantheman);
+}
+
+.C {
+    grid-row: 6;
+    background-color: var(--oldstyle);
+}

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
     <head>
+        <meta charset="utf-8">
         <title>tabellen</title>
         <!--
         <link rel="stylesheet" href="tabellen.css">
@@ -13,6 +14,7 @@
                     <th></th>
                     <th colspan="3" class="toelichting"><em>thead</em>: titelrij van de tabel</th>
                 </tr>
+                <tr>
                 <th></th>
                     <th>kolom 1</th>
                     <th>kolom 2</th>
@@ -48,10 +50,12 @@
         <h1>een tabel in de praktijk (inclusief footer)</h1>
         <table>
             <thead>
-                <th>naam</th>
-                <th>woonplaats</th>
-                <th>nickname</th>
-                <th>leeftijd</th>
+                <tr>
+                    <th>naam</th>
+                    <th>woonplaats</th>
+                    <th>leeftijd</th>
+                    <th>nickname</th>
+                </tr>
             </thead>
             <tbody>
                 <tr>
@@ -74,7 +78,9 @@
                 </tr>
             </tbody>
             <tfoot>
-                <th colspan="4">Een header heb je altijd, een footer komt minder vaak voor.</th>
+                <tr>
+                    <td colspan="4">Een header heb je altijd, een footer komt minder vaak voor.</td>
+                </tr>
             </tfoot>
         </table>
     </body>

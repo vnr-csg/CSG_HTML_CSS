@@ -1,0 +1,90 @@
+/*  palet geleend van:
+    https://www.colourlovers.com/palette/292482/Terra
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(3,101,100);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+}
+
+.container {
+    width: 1000px;
+    margin: 15px auto;
+    text-align: justify;
+    display: flex;
+    border: 1px solid #031634;
+}
+
+.boven .box {
+    width: 200px;
+    height: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.b1 {
+    background-color: rgb(232,221,203);
+    /* dit is hetzelfde als: */
+    background-color: #E8DDCB;
+}
+
+.b2 {
+    background-color: rgb(205,179,128);
+    /* dit is hetzelfde als: */
+    background-color: #CDB380;
+}
+.b3 {
+    background-color: rgb(3,101,100);
+    /* dit is hetzelfde als: */
+    background-color: #036564;
+}
+.b4 {
+    background-color: rgb(3,54,73);
+    /* dit is hetzelfde als: */
+    background-color: #033649;
+}
+.b5 {
+    background-color: rgb(3,22,52);
+    /* dit is hetzelfde als: */
+    background-color: #031634;
+}
+
+.onder {
+    font-weight: 600;
+    border: 1px solid #031634;
+    border-radius: 20px;
+    background-color: #E8DDCB;
+    color: #333;
+}
+
+.onder .box {
+    margin: 10px;
+    padding: 30px 20px 10px 20px;
+    background-color: #CDB380;
+    border: none;
+}
+
+.onder .box:hover {
+    background-color: #036564;
+    border: 1px solid #033649;
+    color: #033649;
+    margin: 9px;
+}
+
+.onder h1 {
+    font-variant: small-caps;
+    letter-spacing: .15em;
+    text-align: center;
+}
+
+.onder h1:hover,.onder p:hover {
+    color: #CDB380;
+}

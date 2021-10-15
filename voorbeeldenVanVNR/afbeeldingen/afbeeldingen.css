@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #333;
+    margin-left: 0px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.vogelplaatjeLinks, .vogelplaatjeRechts {
+    width: 230px;
+}
+
+.vogelplaatjeLinks {
+    float: left;
+    margin-right: 10px;
+
+}
+
+.vogelplaatjeRechts {
+    float: right;
+    margin-left: 10px;
+}
+
+.fotodiv {
+    background-image: url(vogel.jpg);
+}
+
+.L {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+
+.M {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+
+.R {
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.container {
+    max-width: 1652px;
+    background-color: white;
+    padding: 10px;
+    margin: 15px auto;
+    text-align: justify;
+    display: flex;
+}
+
+.box, .double {
+    background-color:transparent;
+    margin: 10px;
+    padding: 30px 20px 10px 20px;
+    border: 1px solid #999;
+}
+
+.box {
+    width: 350px;
+}
+
+.double {
+    width: 762px;
+}

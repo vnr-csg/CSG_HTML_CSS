@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    background-size: cover;
+    color: #333;
+}
+
+#container {
+    margin: 2px 5px 2px 5px;
+    border: 1px dashed #AAA;
+    align-items: center;
+    display:inline-flex;
+    background-color: white;
+}
+
+.box {
+    width: 200px;
+    margin: 20px;
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+div.zwart {
+    background-color: black;
+    color: thistle;
+}
+
+#uniek {
+    background-color: burlywood;
+    color: salmon;
+}
+
+#uniek h2 {
+    text-transform: uppercase;
+}

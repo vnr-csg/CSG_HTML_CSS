@@ -1,0 +1,54 @@
+body {
+    background-color:antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    /* MERK OP: de body heeft standaard een margin */
+    margin: 0;
+}
+
+.container {
+    background-color: whitesmoke;
+    width: 1000px;
+    padding: 10px;
+    margin: 15px auto;
+    text-align: justify;
+    display: flex;
+    border: 3px dotted #CCC;
+}
+
+.box {
+    background-color:lavender;
+    margin: 10px;
+    /* met de klok mee van boven naar rechts naar onder naar links */
+    padding: 30px 20px 10px 20px;
+    border: 1px solid #999;
+}
+
+.onder {
+    font-weight: 600;
+    border: 1px solid #999;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #333;
+}
+
+.onder .box {
+    background-color: transparent;
+    border: none;
+}
+
+.onder .box:hover {
+    background-color: whitesmoke;
+    border: 1px solid red;
+    margin: 9px;
+}
+
+h1,p {
+    margin: 0px;
+}
+
+.onder h1 {
+    font-variant: small-caps;
+    letter-spacing: .15em;
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 62,5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #111;
+}
+
+li {
+    font-size: 2.0rem;
+    width: 200px;
+    color: #111;
+    background-color: #AAA;
+    padding: 5px 15px;
+    margin: 2px 0;
+}
+
+.horizontaal {
+    margin: 20px auto;
+    background-color: red;
+    float: right;
+}
+
+.horizontaal li {
+    display: inline-block;
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.verticaal {
+    margin-top: 20px;
+    background-color: red;
+    float: left;
+}
+
+.verticaal li {
+    display: block;
+    text-align: right;
+    margin: 20px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover, li:hover {
+    background-color: #CCC;
+    font-variant: small-caps;
+}
