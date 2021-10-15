@@ -1,7 +1,28 @@
-body{
+body {
     
     background-image: url('https://www.geoplan-reisen.de/media/russland_st_petersburg.jpg');}
 }
-*{text-align:center;}
+#Games{
+    text-align: center; 
+} 
+#Films{
+    text-align: center;
+}
+.floating{ 
+   float:left;
+   width:12%;
+}
+.floating{
+  border: 5px solid rgb(75, 124, 25);  
+}
+.moria{ 
+   float:right;
+   width:33%;
+}
+.moria{ 
+     border-radius:200px 200px
+}
+
+
 
  
