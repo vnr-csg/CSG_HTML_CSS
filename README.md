@@ -1,6 +1,7 @@
 # Augustinuscollege informatica
 
 Dit is een *repository* om te werken in [GitPod](https://gitpod.io).
+Bij problemen kijk je voor de *status* van GitPod op [GitPodStatus](https://www.gitpodstatus.com).
 
 ## GEBRUIK
 
