@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #111;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#menu {
+    width: 80%;
+    height: 15%;
+    background-color: bisque;
+    margin-left: 5%;
+}
+
+#container {
+    width: 80%;
+    height: 80%;
+    background-color: cornflowerblue;
+    margin-left: 5%;
+    display: flex;
+}
+
+#content {
+    width: 80%;
+    height: 100%;
+    background-color: darkgoldenrod;
+}
+
+#plaatjes {
+    width: 20%;
+    height: 100%;
+    background-color: whitesmoke;
+}
