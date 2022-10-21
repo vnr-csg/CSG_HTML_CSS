@@ -51,7 +51,8 @@ li:hover {
 #container {
   width: 80%;
   margin: auto;
-  margin-top: 3%;
+  margin-top: 2%;
+  margin-bottom: 1%;
   padding: 1%;
   background-color: whitesmoke;
   color: #555;
@@ -60,7 +61,7 @@ li:hover {
 
 #grid-container {
   display: grid;
-  grid-template-rows: repeat(2, 1fr); /* 1fr: gebruik alle free space */
+  grid-template-rows: repeat(2, 0fr); /* 1fr: gebruik alle free space */
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2vw; /* 2 t.o.v. viewport width */    
 }
