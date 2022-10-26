@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About</title>
+        <link rel="stylesheet" href="paddingbijbreedte.css">
+    </head>
+    <body>
+        <h1>Rekenen met het boxmodel</h1>
+        
+        <div id="menu"></div>
+        <div id="bevattwee">
+
+            <div class="blauw">
+                <h1>kopjes</h1>
+                <p>Kijk goed bij de CSS:<br>
+                De divs hebben breedte 500 en 300, dus samen 800 px.<br>
+                Nu verwacht je dat #menu breedte 800 moet hebben, maar width gaat over de content.
+                Beide divs hebben links en rechts padding van 15 resp. 5. Opgeteld is dat 2 x 15 + 2 x 5 = 40.
+                Bovendien is de margin-left van roze nog 30. In totaal is dit 70px. Daarom is de breedte van menu 870px.
+                </p>
+            </div>
+            <div class="roze">
+                <h1>kopjes</h1>
+                <p>Paragraaf met een tamelijk random tekst om de zaak nog een beetje op te vullen.</p>
+            </div>
+    </div>
+    </body>
+</html>
