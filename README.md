@@ -2,6 +2,8 @@
 
 Dit is een *repository* om te werken in [GitPod](https://gitpod.io).
 Bij problemen kijk je voor de *status* van GitPod op [GitPodStatus](https://www.gitpodstatus.com).
+Rechstreeks bekijken van deze versie kan via [CSG_HTML_CSS](https://vnr-csg.github.io/CSG_HTML_CSS/).
+
 
 ## GEBRUIK
 
