@@ -20,8 +20,8 @@ for(var i = 0; i < elements.length; i++) {
        //current.end = current.end[1].split("/");
        // current.href = "CSG_HTML_CSS/" + current.href;
        current.newLinkElements = current.href.split("/");
-       
-       current.href = current.newLinkElements[3] + "/CSG_HTML_CSS/" + current.newLinkElements[4];
+
+       current.href = "/CSG_HTML_CSS/" + current.newLinkElements[3] + current.newLinkElements[4];
        if (i == 0) {
          console.log(current.newLinkElements);
        }       
