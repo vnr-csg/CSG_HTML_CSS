@@ -1,0 +1,13 @@
+{
+    "postStartCommand": "python3 -m http.server 8080",
+    "forwardPorts": [
+      8080
+    ],
+    "portsAttributes": {
+      "8080": {
+        "label": "HTML/CSS-omgeving",
+        "onAutoForward": "openBrowser",
+        "elevateIfNeeded": true
+      }
+    }
+  }
