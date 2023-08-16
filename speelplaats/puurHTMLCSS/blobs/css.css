@@ -1,0 +1,14 @@
+#sp-container {
+  background-color: white;
+  height: 400px;
+  opacity: 0.9;
+}
+
+svg {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}

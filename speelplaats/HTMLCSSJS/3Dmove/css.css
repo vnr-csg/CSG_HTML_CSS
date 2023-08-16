@@ -1,0 +1,33 @@
+:root {
+    --rotate-x: 0deg;
+    --rotate-y: 0deg;
+  }
+  
+  #sp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    color: #555;
+  }
+  
+  .panel {
+    width: 200px;
+    height: 200px;
+    background: #CCC;
+    font-size: 52.5px;
+    line-height: 1.28;
+    transform: rotateX(var(--rotate-x)) rotateY(var(--rotate-y));
+    transition: 800ms;
+  }
+  
+  .ui {
+    margin-top: 50px;
+    font-size: 24px;
+  }
+  
+  .input {
+    width: 70px;
+    font-size: 20px;
+  }

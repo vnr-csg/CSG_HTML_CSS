@@ -1,0 +1,5 @@
+#sp-container {
+    display: grid;
+    margin: auto;
+    place-items: center;
+}
