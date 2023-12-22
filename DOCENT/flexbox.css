@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%; /* default 16px x 62.5% = 10px */
+}
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+    line-height: 1.0rem;
+    position: relative;
+}
+
+h1, h2, h3, h4 {
+    font-size: 2rem;
+    line-height: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    /* flex-direction: row; */ /* row column */
+    /* flex-wrap: wrap; */ /* nowrap wrap */
+    flex-flow: row wrap; /* combineert direction && wrap */
+
+    /* of je stuurt op marges met: gap: 10px 20px; /* row-gap column gap */
+    
+    justify-content: flex-end;
+    /* flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe; */
+    align-items: center;
+    /* align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe; */
+    align-content: flex-start;
+    /* align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe; */
+
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    margin-top: 3%;
+    border: 1px solid #444;
+    text-align: center;
+    color: #333;
+    background-color: whitesmoke;
+}
+
+.box {
+    width: 250px;
+    height: 100px;
+    margin: 20px 5px;
+    /* margin: auto; */
+    border: 1px solid red;
+    background-color: #FFF;
+}

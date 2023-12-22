@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <title>over lettergroottes</title>
+        <link rel="stylesheet" href="fontsize.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="blok a r1">
+                <h1>10px x 1.4 x 1.5 = 21px</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    (10px x 1.4 x 1.0 = 14px)
+                </p>
+                <h2>10px x 1.4 x 1.2 = 16.8px</h2>
+                <p><i>And some more...</i></p>
+            </div>
+            <div class="blok b r1">
+                <h1>10px x 1.5 = 15px</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    (10px x 1.0 = 10px)
+                </p>
+                <h2>10px x 1.2 = 12px</h2>
+                <p><i>And some more...</i></p>
+            </div>
+            <div class="blok c">
+                <h1>em versus rem: overerving of geen overerving</h1>
+                <h2>inleiding</h2>
+                <p>
+                    Als het gaat om lettergrootte (<em>font-size</em>) heb je erg veel keuze:
+                    <em>px, pc, %, em, rem</em>... Welke moet je kiezen?
+                </p>
+                <p>
+                    Als je kiest voor pixels, kies je voor <em>vaste waarden</em>. Dat kan handig zijn, maar het zorgt 
+                    er wel voor dat letters die goed zijn op een PC erg groot worden weergegeven op een mobiel. Maar er is iets anders:
+                    Als je de grootte van je letters wil schalen (iets groter, of iets kleiner), dan moet je alle ingestelde groottes bij langs
+                    en zelf opnieuw uitrekenen hoe groot je ze precies wilt hebben.
+                </p>
+                <p>
+                    Wie <em>rem</em> of <em>em</em> gebruikt, kan volstaan met het instellen van een basisgrootte, waarna
+                    alle overige letters qua grootte mee veranderen. Toch is er nog een subtiel verschil.
+                </p>
+                <h2>em</h2>
+                <p>
+                    In kolom A (links) zijn alle lettergroottes gespecificeerd in de eenheid <em>em</em>.
+                    Dat betekent relatief t.o.v. de default browserinstelling (meestal 16px).
+                    Dat is wel een werkbare eenheid, maar er ontstaan problemen wanneer je voor b.v. een div-element een lettergrootte wil specificeren, maar binnen dat div-element (de <em>parent</em> in dit verhaal)
+                    dan nog weer andere elementen (<em>childs</em> plaatst.) Een child kijkt namelijk niet naar de default-instelling, maar rekent <strong>ten opzichte van</strong> de grootte van zijn <em>parent</em>.
+                </p>
+                <h2>rem</h2>
+                <p>
+                    In kolom B (midden) is rem als eenheid van lettergrootte gebruikt. Hiermee worden alle groottes relatief (daar staat de <em>r</em> voor) ten opzichte van de grootte van de letter van de html-tag genomen.
+                    Probeer maar eens met F12 om de lettergrootte van de container aan te passen. In kolom A zie je alles mee veranderen, terwijl dit op kolom B geen invloed heeft.
+                </p>
+                <h2>tot slot</h2>
+                <p>
+                    Kijk eventueel op <a href="https://zellwk.com/blog/rem-vs-em/">rem-vs-em</a> voor meer achtergrond.
+                </p>
+            </div>
+            <div class="blok a r2">
+                <h1>a2</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h2>a2</h2>
+                <p><i>And some more...</i></p>
+            </div>
+            <div class="blok b r2">
+                <h1>b2</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h2>b2</h2>
+                <p><i>And some more...</i></p>                
+            </div>
+        </div>
+    </body>
+</html>
