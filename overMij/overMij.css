@@ -1,21 +1,6 @@
-html,body {
-    height: 100%;
-}
-#container {
-    width: 90%;
-    height: 50%;
-    margin-left: 5%;
-    background-color: yellow;
-    display: flex;
-}
-
-#links,#rechts {
-    width: 50%;
-    height: 90%;
-    background-color: blue;
-}
-
-#rechts {
-    background-image: url(https://afbeelding.dvhn.nl/dvhn/incoming/wco424-Euroborg.jpg/alternates/LANDSCAPE_960/Euroborg.jpg);
-    background-size: cover;
+body {
+    color: darkblue;
+    font-size: 4.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
 }
