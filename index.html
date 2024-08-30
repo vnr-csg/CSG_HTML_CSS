@@ -3,23 +3,55 @@
     <head>
         <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">        
-        <title>Startpagina v3.0</title>
+        <title>Startpagina v4.0</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Mono">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter">
         <style>
+            /* sorry, dit is een beetje sloppy */
+
+            html {
+                /* Overgenomen van: https://codepen.io/josetxu/pen/mdoaKEr */
+                --sz: 20px;
+                --c0: #fffff000;
+                --c1: #bdd0e1;
+                --c2: #809bb9;
+                --c3: #3e394a;
+                --ts: 50%/ calc(var(--sz) * 13.25) calc(var(--sz) * 11.7);
+                margin: 0;
+                padding: 0;
+                height: 100vh;
+                overflow: hidden;
+                background:
+                    repeating-conic-gradient(#3b354730 0.000001%, var(--c0) 0.00005%, var(--c0) 0.00035%, var(--c0) 0.00005%) var(--ts),
+                    repeating-conic-gradient(#35638b59 0.00002%, var(--c0) 0.00008%, var(--c0) 0.0008%, var(--c0) 0.00008%) var(--ts),
+                    repeating-linear-gradient(90deg, var(--c0) 0 24.33%, var(--c3) 0 25%) var(--ts),
+                    linear-gradient(210deg, var(--c0) 0 80%, var(--c3) calc(80% + 1px) 80.5%, var(--c0) calc(80.5% + 1px) 100%) var(--ts),
+                    conic-gradient(from -90deg at 49.75% 100%, var(--c1) 0 30deg, var(--c0) 0 150deg, var(--c2) 0 60deg) var(--ts),
+                    conic-gradient(from -180deg at 24.5% 50.5%, var(--c1) 0 119deg, var(--c0) 0 100%) var(--ts),
+                    conic-gradient(from 120deg at 74.5% 50%, var(--c3) 0 120deg, var(--c0) 0 100%) var(--ts),
+                    conic-gradient(from 180deg at 49.5% 34%, var(--c2) 0 60deg, var(--c0) 0 100%) var(--ts),
+                    conic-gradient(from -120deg at 50% 34%, var(--c3) 0 60deg, var(--c0) 0 100%) var(--ts),
+                    conic-gradient(from 0deg at 74.5% 17.5%, var(--c2) 0 60deg, var(--c3) 0 121deg, var(--c0) 0 100%) var(--ts),
+                    linear-gradient(150deg, var(--c0) 0 40%, var(--c3) calc(40% + 1px) 40.5%, var(--c0) calc(40.5% + 1px) 100%) var(--ts),
+                    linear-gradient(90deg, var(--c0) 0 50%, var(--c2) 0 75%, var(--c0) 0 100%) var(--ts),
+                    repeating-linear-gradient(90deg, var(--c1) 0 24.33%, var(--c3) 0 25%) var(--ts);
+            }
 
             body {
-                background-color: #ebe7e8;
+                /* background-color: #ebe7e8; */
                 /* background-color: #e4bb07; */
             }
+
             h1 {
                 margin: 0;
                 margin-bottom: 3%;
                 font-family: 'Ubuntu Mono', serif;
                 font-size: 96px;
-                color: #4390e8;
+                /* color: #4390e8; */
+                color: var(--c2);
             }
+            
             h2 {
                 margin: 0;
                 margin-top: 6%;
@@ -34,14 +66,16 @@
             }
             
             h2,h5 {
-                color: #696364;
+                /* color: #696364; */
+                color: var(--c3);
             }
 
             a {
                 font-family: 'Architects Daughter', serif;  
                 font-size: 24px;
-                color: #198aaf;
-                background-color: wheat;
+                /* color: #198aaf; */
+                color: var(--c1);
+                /* background-color: wheat; */
                 text-decoration: none;
                 border-radius: 15%;
                 margin: 10px;
@@ -49,7 +83,10 @@
             }
             
             a:hover {
-                background-color: yellow;
+                /* background-color: yellow; */
+                background-color: var(--c3);
+                color: var(--c2);
+
             }     
             
             a {
@@ -63,20 +100,20 @@
             }
 
             #container {
-                width: 65%;
+                background-color: #fff;
+                opacity: .8;
+                width: 45%;
                 margin: auto;
                 margin-top: 5%;
-                padding: 5%;
+                padding: 2% 5%;
                 text-align: center;
-                border-left: 4px solid grey;
-                border-right: 4px solid grey;
             }
         </style>
     </head>
     <body>
         <div id="container">
             <h1>startpagina</h1>
-            <h5>&#8645; versie 3.0</h5>
+            <h5>&#8645; versie 4.0</h5>
             <a href="voorbeeldenVanVNR/index.html">VB</a>
             <a href="bronnen/index.html">links</a>
             <a href="oefenen/index.html">oefenen</a>
@@ -92,18 +129,14 @@
                 <a href ="overMij/TO_HTML_CSS_ 2022.pdf" target="_blank">TO over Mij</a><br>
                 -->
                 <a href ="https://www.codecademy.com/" target="_blank">Codecademy</a><br>
-                <a href ="https://github.com/" target="_blank">GitHub</a> (&& <a href ="https://www.gitpodstatus.com/" target="_blank">status</a>)<br>
+                <a href ="https://github.com/" target="_blank">GitHub</a>
+                <!-- (&& <a href ="https://www.gitpodstatus.com/" target="_blank">status</a>)<br> -->
             </div>
             <p>
                 <!-- https://www.w3.org/QA/Tools/Icons -->
                 <a href="https://validator.w3.org/nu/">
                     <img style="border:0;width:88px;height:31px"
                         src="https://www.w3.org/Icons/valid-html401-blue"
-                        alt="Valide CSS!" />
-                </a>
-                <a href="https://jigsaw.w3.org/css-validator/check/referer">
-                    <img style="border:0;width:88px;height:31px"
-                        src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
                         alt="Valide CSS!" />
                 </a>
             </p>
